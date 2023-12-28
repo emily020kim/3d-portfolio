@@ -127,9 +127,9 @@ export const experiences = [
         company_name: "Electric Potential",
         icon: electric,
         iconBg: "#b7e4c7",
-        date: "Coming up in January 2024!",
+        date: "January 2024 - Present",
         points: [
-            "Leaing the implementation of interactive and dynamic elements to enhance the overall interactivity and engagement of the user interface.",
+            "Leading the implementation of interactive and dynamic elements to enhance the overall interactivity and engagement of the user interface.",
             "Working closely with designers to ideate, suggest, and lead the integration of interactive components and motion design into static designs.",
             "Conducting thorough testing to ensure the functionality and performance of the developed solutions, addressing any issues and optimizing for an exceptional user experience.",
             "Collaborating with key stakeholders to understand business requirements and ensure that the developed solutions meet both user needs and organizational goals.",
