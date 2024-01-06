@@ -20,6 +20,8 @@ import tza from "../assets/icons/tza.jpg";
 import shoe from "../assets/icons/shoe.svg";
 import youtube from "../assets/icons/youtube.svg";
 import sanfran from "../assets/icons/sanfran.svg";
+import snake from "../assets/icons/snake.png";
+import java from "../assets/icons/java.png";
 
 
 export const skills = [
@@ -92,6 +94,11 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     }
 ];
 
@@ -176,5 +183,12 @@ export const projects = [
         name: 'WebTube',
         description: 'Created a clone web application of YouTube.',
         link: 'https://github.com/emily020kim/yt-clone',
+    },
+    {
+        iconUrl: snake,
+        theme: 'btn-back-red',
+        name: 'Snake Game',
+        description: 'Snake Game created with Java.',
+        link: 'https://github.com/emily020kim/snakeGame',
     },
 ];
