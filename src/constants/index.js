@@ -20,7 +20,7 @@ import tza from "../assets/icons/tza.jpg";
 import shoe from "../assets/icons/shoe.svg";
 import youtube from "../assets/icons/youtube.svg";
 import sanfran from "../assets/icons/sanfran.svg";
-import snake from "../assets/icons/snake.png";
+import bank from "../assets/icons/bank.png";
 import java from "../assets/icons/java.png";
 
 
@@ -185,10 +185,10 @@ export const projects = [
         link: 'https://github.com/emily020kim/yt-clone',
     },
     {
-        iconUrl: snake,
+        iconUrl: bank,
         theme: 'btn-back-red',
-        name: 'Snake Game',
-        description: 'Snake Game created with Java.',
-        link: 'https://github.com/emily020kim/snakeGame',
+        name: 'Bank Application',
+        description: 'Bank Application created with Java.',
+        link: 'https://github.com/emily020kim/bank-app',
     },
 ];
