@@ -123,7 +123,7 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "December 2023 - Present",
         points: [
-            "Volunteering to improve a full stack web application that prevents Boston residents from getting towed.",
+            "Working to improve a full stack web application that prevents Boston residents from getting towed.",
             "Building upon current code base using Next.js, Typescript, React, Tailwind and Python/FastAPI for backend.",
             "Collaborating with front-end engineering team to create a more user-friendly website using Jira to distribute tasks",
             "Updating backend Python code and writing unit tests to ensure that database is scalable and secure.",
