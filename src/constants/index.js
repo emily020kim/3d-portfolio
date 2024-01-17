@@ -22,6 +22,7 @@ import youtube from "../assets/icons/youtube.svg";
 import sanfran from "../assets/icons/sanfran.svg";
 import bank from "../assets/icons/bank.png";
 import java from "../assets/icons/java.png";
+import goodhealth from '../assets/icons/goodhealth.jpg';
 
 
 export const skills = [
@@ -104,16 +105,16 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Full Stack Developer",
-        company_name: "Code for San Francisco",
-        icon: sf,
-        iconBg: "#accbe1",
-        date: "October 2023 - Present",
+        title: "Front End Developer Intern",
+        company_name: "Electric Potential",
+        icon: electric,
+        iconBg: "#b7e4c7",
+        date: "January 2024 - Present",
         points: [
-            "Volunteering to build full stack web application to help locals in SF find ways to support their local high schools.",
-            "Developing a full stack web application using Typescript, React, Next.js, TailwindCSS, and PostgreSQL.",
-            "Creating a REST API using PostgreSQL to store data from learning management systems.",
-            "Collaborating with a cross-functional team of 10+ using Kanban, GitHub and pair programming.",
+            "Leading the implementation of interactive and dynamic elements to enhance the overall interactivity and engagement of the user interface.",
+            "Working closely with designers to ideate, suggest, and lead the integration of interactive components and motion design into static designs.",
+            "Conducting thorough testing to ensure the functionality and performance of the developed solutions, addressing any issues and optimizing for an exceptional user experience.",
+            "Collaborating with key stakeholders to understand business requirements and ensure that the developed solutions meet both user needs and organizational goals.",
         ],
     },
     {
@@ -130,16 +131,28 @@ export const experiences = [
         ],
     },
     {
-        title: "Front End Developer Intern",
-        company_name: "Electric Potential",
-        icon: electric,
-        iconBg: "#b7e4c7",
-        date: "January 2024 - Present",
+        title: "Full Stack Developer",
+        company_name: "Code for San Francisco",
+        icon: sf,
+        iconBg: "#accbe1",
+        date: "October 2023 - Present",
         points: [
-            "Leading the implementation of interactive and dynamic elements to enhance the overall interactivity and engagement of the user interface.",
-            "Working closely with designers to ideate, suggest, and lead the integration of interactive components and motion design into static designs.",
-            "Conducting thorough testing to ensure the functionality and performance of the developed solutions, addressing any issues and optimizing for an exceptional user experience.",
-            "Collaborating with key stakeholders to understand business requirements and ensure that the developed solutions meet both user needs and organizational goals.",
+            "Volunteering to build full stack web application to help locals in SF find ways to support their local high schools.",
+            "Developing a full stack web application using Typescript, React, Next.js, TailwindCSS, and PostgreSQL.",
+            "Creating a REST API using PostgreSQL to store data from learning management systems.",
+            "Collaborating with a cross-functional team of 10+ using Kanban, GitHub and pair programming.",
+        ],
+    },
+    {
+        title: "Program Support Assistant",
+        company_name: "Goodhealth",
+        icon: goodhealth,
+        iconBg: "#b7e4c7",
+        date: "July - September 2023",
+        points: [
+            "Increased organizational social media marketing posts views by 200%.",
+            "Created health curriculum for special needs young adults in local school districts.",
+            "Assisted with the onboarding of a team of 9 interns.",
         ],
     },
 ];
