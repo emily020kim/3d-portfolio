@@ -19,7 +19,7 @@ import typescript from "../assets/icons/typescript.svg";
 import tza from "../assets/icons/tza.jpg";
 import shoe from "../assets/icons/shoe.svg";
 import youtube from "../assets/icons/youtube.svg";
-import sanfran from "../assets/icons/sanfran.svg";
+import pin from '../assets/icons/pin.png';
 import bank from "../assets/icons/bank.png";
 import java from "../assets/icons/java.png";
 import goodhealth from '../assets/icons/goodhealth.jpg';
@@ -184,11 +184,11 @@ export const projects = [
         link: 'https://github.com/emily020kim/ecommerce-store',
     },
     {
-        iconUrl: sanfran,
+        iconUrl: pin,
         theme: 'btn-back-green',
-        name: 'Support SFUSD',
-        description: 'Open-source project creating a website to help SF locals find ways to support local schools.',
-        link: 'https://github.com/sfbrigade/support-sfusd',
+        name: 'Pinit',
+        description: 'Imaging upload and searching app.',
+        link: 'https://github.com/emily020kim/pinit',
     },
     {
         iconUrl: youtube,
