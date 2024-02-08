@@ -1,6 +1,5 @@
 import contact from "../assets/icons/contact.svg";
 import css from "../assets/icons/css.svg";
-import electric from "../assets/icons/electric.jpg";
 import express from "../assets/icons/express.svg";
 import git from "../assets/icons/git.svg";
 import github from "../assets/icons/github.svg";
@@ -23,6 +22,7 @@ import pin from '../assets/icons/pin.png';
 import bank from "../assets/icons/bank.png";
 import java from "../assets/icons/java.png";
 import goodhealth from '../assets/icons/goodhealth.jpg';
+import sonomtic from '../assets/icons.sonomatic.jpg';
 
 
 export const skills = [
@@ -105,29 +105,24 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Front End Developer Intern",
-        company_name: "Electric Potential",
-        icon: electric,
+        title: "Fullstack Software Engineer Intern",
+        company_name: "Sonomatic",
+        icon: sonomtic,
         iconBg: "#b7e4c7",
-        date: "January 2024 - Present",
-        points: [
-            "Leading the implementation of interactive and dynamic elements to enhance the overall interactivity and engagement of the user interface.",
-            "Working closely with designers to ideate, suggest, and lead the integration of interactive components and motion design into static designs.",
-            "Conducting thorough testing to ensure the functionality and performance of the developed solutions, addressing any issues and optimizing for an exceptional user experience.",
-            "Collaborating with key stakeholders to understand business requirements and ensure that the developed solutions meet both user needs and organizational goals.",
-        ],
+        date: "February 2024 - Present",
+        points: [],
     },
     {
         title: "Full Stack Developer",
         company_name: "Tow Zone Alerts",
         icon: tza,
         iconBg: "#fbc3bc",
-        date: "December 2023 - Present",
+        date: "December 2023 - January 2024",
         points: [
-            "Working to improve a full stack web application that prevents Boston residents from getting towed.",
-            "Building upon current code base using Next.js, Typescript, React, Tailwind and Python/FastAPI for backend.",
-            "Collaborating with front-end engineering team to create a more user-friendly website using Jira to distribute tasks",
-            "Updating backend Python code and writing unit tests to ensure that database is scalable and secure.",
+            "Worked to improve a full stack web application that prevents Boston residents from getting towed.",
+            "Built upon current code base using Next.js, Typescript, React, Tailwind and Python/FastAPI for backend.",
+            "Collaborated with front-end engineering team to create a more user-friendly website using Jira to distribute tasks",
+            "Updated backend Python code and writing unit tests to ensure that database is scalable and secure.",
         ],
     },
     {
