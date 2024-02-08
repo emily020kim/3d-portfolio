@@ -22,7 +22,7 @@ import pin from '../assets/icons/pin.png';
 import bank from "../assets/icons/bank.png";
 import java from "../assets/icons/java.png";
 import goodhealth from '../assets/icons/goodhealth.jpg';
-import sonomtic from '../assets/icons.sonomatic.jpg';
+import sonomatic from '../assets/icons/sonomatic.jpg';
 
 
 export const skills = [
@@ -107,7 +107,7 @@ export const experiences = [
     {
         title: "Fullstack Software Engineer Intern",
         company_name: "Sonomatic",
-        icon: sonomtic,
+        icon: sonomatic,
         iconBg: "#b7e4c7",
         date: "February 2024 - Present",
         points: [],
