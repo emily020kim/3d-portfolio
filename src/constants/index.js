@@ -105,12 +105,17 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Fullstack Software Engineer Intern",
+        title: "Full Stack Intern",
         company_name: "Sonomatic",
         icon: sonomatic,
         iconBg: "#b7e4c7",
         date: "February 2024 - Present",
-        points: [],
+        points: [
+            "Building upon SaaS application's large-scale database resulting in an increase of user capacity by 10%.",
+            "Implementing Python and Flask to develop API endpoints, contributing to a more scalable architecture.",
+            "Creating frontend user interface with React, Typescript, and TailwindCSS increasing user activity by 50%."
+
+        ],
     },
     {
         title: "Full Stack Developer",
@@ -137,19 +142,7 @@ export const experiences = [
             "Creating a REST API using PostgreSQL to store data from learning management systems.",
             "Collaborating with a cross-functional team of 10+ using Kanban, GitHub and pair programming.",
         ],
-    },
-    {
-        title: "Program Support Assistant",
-        company_name: "Goodhealth",
-        icon: goodhealth,
-        iconBg: "#b7e4c7",
-        date: "July - September 2023",
-        points: [
-            "Increased organizational social media marketing posts views by 200%.",
-            "Created health curriculum for special needs young adults in local school districts.",
-            "Assisted with the onboarding of a team of 9 interns.",
-        ],
-    },
+    }
 ];
 
 export const socialLinks = [
