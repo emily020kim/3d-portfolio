@@ -20,8 +20,7 @@ import shoe from "../assets/icons/shoe.svg";
 import youtube from "../assets/icons/youtube.svg";
 import pin from '../assets/icons/pin.png';
 import bank from "../assets/icons/bank.png";
-import java from "../assets/icons/java.png";
-import goodhealth from '../assets/icons/goodhealth.jpg';
+import um from "../assets/icons/um.png";
 import sonomatic from '../assets/icons/sonomatic.jpg';
 
 
@@ -96,25 +95,29 @@ export const skills = [
         name: "TypeScript",
         type: "Frontend",
     },
-    {
-        imageUrl: java,
-        name: "Java",
-        type: "Backend",
-    }
 ];
 
 export const experiences = [
+    {
+        title: "Upcoming Web UI Intern",
+        company_name: "UnitedMasters | Translation",
+        icon: um,
+        iconBg: "#accbe1",
+        date: "June 2024 - August 2024",
+        points: [
+
+        ],
+    },
     {
         title: "Full Stack Intern",
         company_name: "Sonomatic",
         icon: sonomatic,
         iconBg: "#b7e4c7",
-        date: "February 2024 - Present",
+        date: "February 2024 - May 2024",
         points: [
-            "Building upon SaaS application's large-scale database resulting in an increase of user capacity by 10%.",
-            "Implementing Python and Flask to develop API endpoints, contributing to a more scalable architecture.",
-            "Creating frontend user interface with React, Typescript, and TailwindCSS increasing user activity by 50%."
-
+            "Built upon SaaS application's Firebase database resulting in an increase of user capacity by 10%.",
+            "Implemented Python and Flask to develop API endpoints, contributing to a more scalable architecture.",
+            "Created frontend user interface with React, Typescript, and TailwindCSS increasing user activity by 50%."
         ],
     },
     {
@@ -137,10 +140,10 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "October 2023 - Present",
         points: [
-            "Volunteering to build full stack web application to help locals in SF find ways to support their local high schools.",
-            "Developing a full stack web application using Typescript, React, Next.js, TailwindCSS, and PostgreSQL.",
-            "Creating a REST API using PostgreSQL to store data from learning management systems.",
-            "Collaborating with a cross-functional team of 10+ using Kanban, GitHub and pair programming.",
+            "Volunteered to build full stack web application to help locals in SF find ways to support their local high schools.",
+            "Developed a full stack web application using Typescript, React, Next.js, TailwindCSS, and PostgreSQL.",
+            "Created a REST API using PostgreSQL to store data from learning management systems.",
+            "Collaborated with a cross-functional team of 10+ using Kanban, GitHub and pair programming.",
         ],
     }
 ];
