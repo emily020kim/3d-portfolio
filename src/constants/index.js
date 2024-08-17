@@ -99,13 +99,15 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Upcoming Web UI Intern",
+        title: "Web UI Intern",
         company_name: "UnitedMasters | Translation",
         icon: um,
         iconBg: "#accbe1",
         date: "June 2024 - August 2024",
         points: [
-
+            "Created a CMS interface to onboard partner artists 50% faster.",
+            "Translated Figma mockups into pixel-perfect UI with React, Javascript, and Emotion",
+            "Developed UI components with Framer Motion and Three.js creating animated interactive components for the web."
         ],
     },
     {
@@ -138,9 +140,9 @@ export const experiences = [
         company_name: "Code for San Francisco",
         icon: sf,
         iconBg: "#accbe1",
-        date: "October 2023 - Present",
+        date: "October 2023 - May 2024",
         points: [
-            "Volunteered to build full stack web application to help locals in SF find ways to support their local high schools.",
+            "Participated in an open-source project to help locals in SF find ways to support their local high schools.",
             "Developed a full stack web application using Typescript, React, Next.js, TailwindCSS, and PostgreSQL.",
             "Created a REST API using PostgreSQL to store data from learning management systems.",
             "Collaborated with a cross-functional team of 10+ using Kanban, GitHub and pair programming.",
